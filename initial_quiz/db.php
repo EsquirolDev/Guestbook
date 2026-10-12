@@ -2,8 +2,8 @@
 
 $HOST = "localhost";
 $DATABASE = "sc_guestbook";
-$USER = "root";
-$PASSWORD = "";
+$USER = "guestbook_user";
+$PASSWORD = "CANVIA_AQUESTA_CONTRASENYA";
 
 try {
     $pdo = new PDO("mysql:host=$HOST;dbname=$DATABASE", $USER, $PASSWORD);
